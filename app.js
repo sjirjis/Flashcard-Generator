@@ -4,7 +4,7 @@ var inquirer = require('inquirer'),
 	basicCard = require('./basicCard'),
 	clozeCard = require('./clozeCard');
 
-var basicArray = []
+var basicArray = [],
 	clozeArray = [];
 
 promptBasicOrCloze();
